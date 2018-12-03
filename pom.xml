@@ -50,6 +50,20 @@
 		</dependency>
 	</dependencies>
 
+	<repositories>
+		<repository>
+			<id>central</id>
+			<name>Central</name>
+			<url>http://repo1.maven.org/maven2</url>
+		</repository>
+	</repositories>
+
+	<dependency>
+		<groupId>com.microsoft.azure</groupId>
+		<artifactId>applicationinsights-spring-boot-starter</artifactId>
+		<version>1.0.1-BETA</version>
+	</dependency>
+
 	<build>    
 		<finalName>ROOT</finalName>
 		<plugins>
